@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/ills/font-awesome/4.7.0/css/font-awesome.min.css">
+  	<link rel="stylesheet" type="text/css" href="assets/dist/simple-lightbox.css">
+	<title>My Portfolio</title>
+</head>
+<body>
+<div class="menu">
+	<h1>MY PORTFOLIO</h1>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	  <button class="navbar-toggler" onclick="menuopen()" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	</nav>
+	<div class="menubar" id="myTopnav">
+	  <a class="active" href="index.html"><i class="fa fa-fw fa-home"></i> Home</a> 
+	  <a href="about.html"><i class="fa fa-fw fa-user"></i> About</a>
+	  <a href="work.html"><i class="fa fa-briefcase" aria-hidden="true"></i> Work</a>
+	  <a href="contact.html"><i class="fa fa-fw fa-envelope"></i> Contact</a> 
+	</div>
+</div>
+
+<!-- Title -->
+<div class="title">
+	<h1>Works</h1>
+</div>
+<!-- Works -->
+
+<div class="container py-4">
+
+
+<div class="tab">
+  <button class="tablinks active" onclick="openCity(event, 'London')"><i class="fa fa-gamepad" aria-hidden="true"></i> Game</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')"><i class="fa fa-file-image-o" aria-hidden="true"></i> Illustrations</button>
+</div>
+
+<div id="London" class="tabcontent" style="display: block;">
+  
+<!-- First -->
+<div class="area">
+	<h3>Mine For The Taking (2019)</h3>
+	<p>Made in Unity . Realtime Tech Demo . For PC . Sizzle Reel for a Tech-Noir Adventure Game</p>
+
+	<div class="row">
+		<div class="col-md-6">
+			<iframe width="100%" height="315" src="https://www.youtube.com/embed/BJW0yF0JFm0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		</div>
+		<div class="col-md-6">
+			<p>
+				Set in the alternate 2060’s - a world where a disease affects a significant amount of the global population experiencing "lock-in" and revolutions in neural technology are abound, Mine For The Taking is a tech-noir adventure game about a British government agent who although locked in his body, takes control of humans and robots alike to do the bidding of Britannia. Inspired by the novel Lock In by John Scalzi and fueled by my enamorment of the genres of science fiction and film noir, this project is also profoundly informed by learnings from the art of chiaroscuro and German expressionism. Within the scope of my senior thesis project at Parsons, I present to you a conceptual sizzle reel showcasing the various characters and environments built over the course of one semester in the hopes of promulgating a uniquely impressionistic art style and teasing an intriguing setting that is ripe for adapting in a wider and dare I say, grander, form.
+			</p>
+		</div>
+		<div class="col-md-12">
+			<!-- Slider HTML -->
+			<div class="container">
+				<div id="demo" class="carousel slide" data-ride="carousel">
+
+				  <!-- Indicators -->
+				  <ul class="carousel-indicators">
+				    <li data-target="#demo" data-slide-to="0" class="active"></li>
+				    <li data-target="#demo" data-slide-to="1"></li>
+				    <li data-target="#demo" data-slide-to="2"></li>
+				    <li data-target="#demo" data-slide-to="3"></li>
+				  </ul>
+				  
+				  <!-- The slideshow -->
+				  <div class="carousel-inner">
+				    <div class="carousel-item active">
+				      <img src="assets/images/shot-1.jpg" alt="Los Angeles">
+				    </div>
+				    <div class="carousel-item">
+				      <img src="assets/images/shot-2.jpg" alt="Chicago">
+				    </div>
+				    <div class="carousel-item">
+				      <img src="assets/images/shot-3.jpg" alt="New York">
+				    </div>
+				    <div class="carousel-item">
+				      <img src="assets/images/shot-4.jpg" alt="New York">
+				    </div>
+				  </div>
+				  
+				  <!-- Left and right controls -->
+				  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+				    <span class="carousel-control-prev-icon"></span>
+				  </a>
+				  <a class="carousel-control-next" href="#demo" data-slide="next">
+				    <span class="carousel-control-next-icon"></span>
+				  </a>
+				</div>
+			</div>
+			<!-- End Slider -->
+		</div>
+	</div>
+</div>
+
+<div class="area">
+	<h3>Arcadia (2018)</h3>
+	<p>Made in Unity . Conceptual Prototype . For PC, Mac, iOS, Android, and WebGL . Digital Collectible Card Game</p>
+
+	<div class="row">
+		<div class="col-md-6">
+			<iframe width="100%" height="315" src="https://www.youtube.com/embed/aGZNNt0FErE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		</div>
+		<div class="col-md-6">
+			<p>In a kingdom on a land far, far away exists a tavern called Arcadia. Citizens of all backgrounds; whether it be a common merchant or the minister, gather in this legendary place to hold tournaments of tarot-inspired cards. The stakes are high, for it is up to the underdog to climb up the ladder by using their wit and defeat the final challenge of dueling Queen Pearl herself. An inconoclastic mashup of the genres of collectible card games and traditional card games, Arcadia is a group project, proudly made with team member Meric Onel.</p>
+		</div>
+	</div>
+</div>
+
+</div>
+
+<div id="Paris" class="tabcontent">
+ 
+
+<div class="gallery">
+        <a href="assets/images/ill/1.png"><img src="assets/images/ill/1.png" alt="" title=""/></a>
+        <a href="assets/images/ill/2.png"><img src="assets/images/ill/2.png" alt="" title=""/></a>
+        <a href="assets/images/ill/3.png"><img src="assets/images/ill/3.png" alt="" title=""/></a>
+        <a href="assets/images/ill/4.png"><img src="assets/images/ill/4.png" alt="" title=""/></a>
+        <a href="assets/images/ill/5.png"><img src="assets/images/ill/5.png" alt="" title=""/></a>
+        <a href="assets/images/ill/6.png"><img src="assets/images/ill/6.png" alt="" title=""/></a>
+        <a href="assets/images/ill/7.png"><img src="assets/images/ill/7.png" alt="" title=""/></a>
+        <a href="assets/images/ill/8.png"><img src="assets/images/ill/8.png" alt="" title=""/></a>
+        <a href="assets/images/ill/9.png"><img src="assets/images/ill/9.png" alt="" title=""/></a>
+        <a href="assets/images/ill/10.png"><img src="assets/images/ill/10.png" alt="" title=""/></a>
+        <a href="assets/images/ill/11.png"><img src="assets/images/ill/11.png" alt="" title=""/></a>
+        <a href="assets/images/ill/12.png"><img src="assets/images/ill/12.png" alt="" title=""/></a>
+        <div class="clear"></div>
+    </div>
+
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="footer">
+	Copyright @ 2023 My Portfolio. All rights reserved
+</div>
+</body>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="assets/js/main.js"></script>
+<script type="text/javascript" src="assets/dist/simple-lightbox.js"></script>
+<script>
+    (function() {
+        var $gallery = new SimpleLightbox('.gallery a', {});
+    })();
+</script>
+</html>
